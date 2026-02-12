@@ -16,6 +16,8 @@
             margin-bottom: 40px;
         }
         .gallery {
+            display: flex;
+            flex-wrap: wrap;
             gap: 40px;
             justify-content: center;
             padding: 30px;
@@ -24,7 +26,7 @@
             background: #fff;
         }
         .item {
-            width: 100%;
+            width: 40%;
             border: 2px solid #e5d9c8;
             box-shadow: 0 4px 10px rgba(0,0,0,0.1);
             border-radius: 12px;
@@ -33,8 +35,7 @@
         }
         .item img {
             width: 100%;
-            height: auto;
-            max-width: 100%;
+            display: block;      
         }
         .caption {
             padding: 12px;
